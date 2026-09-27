@@ -1,0 +1,24 @@
+{
+  "name": "random-facts-api",
+  "version": "1.0.0",
+  "description": "A free, public, developer-friendly Random Facts API with multiple categories.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["facts", "api", "random-facts", "express", "public-api"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
